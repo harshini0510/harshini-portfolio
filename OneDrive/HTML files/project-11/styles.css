@@ -1,0 +1,20 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    column-count:3 ;
+    column-width: 200px;
+    column-rule-style: solid;
+    column-rule-color: brown;
+    column-rule-width: 5px;
+
+}
+h1{
+    coulmn-span:all;
+}
+img{
+    display:block;
+    column-span:all;
+}

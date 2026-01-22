@@ -1,0 +1,29 @@
+body{   
+    padding-top : 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: antiquewhite;
+}
+h1{
+    margin:0;
+    text-align:center;
+}
+.line{
+    width: 100%;
+    background-color: cadetblue;
+    height: 1.5px;
+}
+h2{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin:0;
+}
+img{
+    display:block;
+    margin:auto;
+}

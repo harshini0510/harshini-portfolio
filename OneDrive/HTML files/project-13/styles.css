@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+/* below 576px,bgc can be red */
+@media screen and (max-width:576px) {
+    body{
+        background-color: red;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    img{
+        display:none;
+    }
+    p{
+        display: none;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    body{
+        background-color: blue;
+    }
+    h1{
+        font-size:5rem;
+    }
+}
+/* 577px to 768px bgc can be blue. */
+/* 769 to 992-orange */
+@media screen and (min-width:769px) and (max-width:992px) {
+    body{
+        background-color:orange;
+    }
+    h1{
+        font-size:6rem;
+    }
+}
+/* above 993 bgc can be white */
+@media screen and (min-width:993px) {
+    body{
+        background-color:green;
+    }
+    h1{
+        font-size:8rem;
+    }
+}
